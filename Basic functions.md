@@ -36,6 +36,5 @@ function double(number) {
 
 double(5)
 ```
-You are invoking the function doulbe and passing the value 5 to the ```number``` parameter. 
--> So to call a function, you have to write its name(```double```) and then you need to have the parentheses```()```  
-with a value that you want to pass for the parameter. Hence why it looks like: ```double(5)``` or ```double(20)```  
+You are invoking the function doulbe and passing the value 5 to the ```number``` parameter.   
+-> So to call a function, you have to write its name(```double```) and then you need to have the parentheses```()``` with a value that you want to pass for the parameter. Hence why it looks like: ```double(5)``` or ```double(20)```.  

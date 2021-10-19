@@ -9,6 +9,8 @@ let email = "   robin.yeon@gmail.com    "
 email.trim()
 ```
 
+----
+
 ```
 function getEmail(email) {
     let cleaned = email

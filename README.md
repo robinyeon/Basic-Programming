@@ -1,2 +1,2 @@
 # Basic-Programming
-pity my poor brain
+Begins with a single step

@@ -74,4 +74,6 @@ console.log(user); // {name: "Sam", age: 21}
 ```
 The object ends up containing the **value** of the variable which is, in this example, **"Sam"**.
 
+***It's important to console.log() the object so that you can visualize it. This is NOT a tip for beginners. This is a tip for all developers, so don't be ashamed of using console.log ;)***
+
 

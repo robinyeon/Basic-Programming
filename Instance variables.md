@@ -60,4 +60,4 @@ class User {
 
 let sam = new User(20);
 ```
-![visualized_Class](https://res.cloudinary.com/dbfn5lnvx/image/upload/w_1000/v1610195070/learnprogramming/lessons/instances.png)
+<img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/w_1000/v1610195070/learnprogramming/lessons/instances.png" width="500px"/>

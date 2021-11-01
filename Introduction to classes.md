@@ -29,3 +29,72 @@ Once you start working with classes, the variables inside a class are called **p
 <br/>
 
 ***Classes are not only used for grouping variables and funcitons, in fact, there's a very important concept that is unique to classes, and that is 'instantiation(예시화)'.***
+*instantiate: 구체적 예를들어 나타내다, 예시하다*
+
+## Instantiation
+```
+let sam = new User("Sam", "Blue", 30);
+sam.getFullName(); // "Sam Blue"
+sam.getInitials(); // "SB"
+sam.canVote(); // true
+
+let charley = new User("Charley", "Don", 17);
+charley.getFullName(); // "Charley Don"
+charley.getInitials(); // "CD"
+charley.canVote(); // false
+```
+- They are both **instantiated** (created) from the same ```class``` **User**, but they both have different properties (variables). Also, calling methods (functions) on these variables gives us different results depending on which variable we're calling it on.
+
+
+## The 'new' keyword
+Because ```User``` is a class, you can create a **new instance of that class** with the ```new``` keyword.
+
+### What's an instance?
+
+Output of ```console.log(sam)```(simplified):
+```
+User {
+    firstName: "Sam",
+    lastName: "Blue",
+    age: 30,
+    getFullName: function() {...},
+    getInitials: function() {...},
+    canVote: function() {...}
+}
+```
+- You can see that the ```sam``` is an object.
+- We can see the word **User** before that object in the console because this is not *any* kind of object, but it's a specific object.
+- It's an object created by the ```User``` class.
+- So the result of new User(...) will always be an object.
+- **You create a new instance of a class, you will get back an object.**
+
+## So what is a Class?
+***A class is a factory that creates objects***
+- A class is a **blueprint** for creating objects.
+- The ```class User``` is the blueprint for creating user objects
+
+## Sum up
+- You can create a **new instance of a class** with the ```new``` keyword.
+- When you create a new instance of a class, you will get back an object.
+- A class is a factory that creates objects.
+- A class is a **blueprint** for creating objects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

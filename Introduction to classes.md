@@ -73,28 +73,30 @@ User {
 - A class is a **blueprint** for creating objects.
 - The ```class User``` is the blueprint for creating user objects
 
-## Sum up
-- You can create a **new instance of a class** with the ```new``` keyword.
-- When you create a new instance of a class, you will get back an object.
-- A class is a factory that creates objects.
-- A class is a **blueprint** for creating objects.
+## Every instance is different
+- Every instance created from the same class is different.
+```
+let sam1 = new Person("Sam Doe");
+let sam2 = new Person("Sam Doe");
+```
+- In fact, ```sam1 === sam2``` will give you ```false```. That's because every instance from a class is a completely new and different object. Even if the objects have the same values inside.
 
+## Defining your own class
+```
+class User {
 
+}
+```
+### Naming convention
+It's important to name the class in **UpperCamelCase**. So the first character of every word should be in upper case, the rest in lower case.
+### Class definition vs Class usage
+```
+// class definition
+class User {
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// class usage
+let user1 = new User();
+let user2 = new User();
+```

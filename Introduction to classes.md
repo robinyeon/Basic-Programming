@@ -31,7 +31,7 @@ Once you start working with classes, the variables inside a class are called **p
 ***Classes are not only used for grouping variables and funcitons, in fact, there's a very important concept that is unique to classes, and that is 'instantiation(예시화)'.***
 *instantiate: 구체적 예를들어 나타내다, 예시하다*
 
-## Instantiation
+## Instantiation(예시화)
 ```
 let sam = new User("Sam", "Blue", 30);
 sam.getFullName(); // "Sam Blue"

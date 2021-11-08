@@ -1,6 +1,20 @@
-#### CSV export ```.join(", ")```
+#### CSV export ```arr.join([seperator])```
 - CSV: comma-separated values
+- 하나의 문자열로 변환
 - 변환 후 엑셀에서 사용 가능
+- seperator 생략시 기본적으로 "," 삽입
+```
+let arr = ['바람', '비', '물'];
+
+console.log(arr.join());
+// 바람,비,물
+
+console.log(arr.join(''));
+// 바람비물
+
+console.log(arr.join('-'));
+// 바람-비-물
+```
 
 ---
 
@@ -52,7 +66,7 @@ user.canVote(); // true
 #### DRY "Don't Repeat Yourself!"
 
 ---
-#### ```Number.parseInt(문자열 ,10)
+#### ```Number.parseInt(문자열 ,10)```
 You can convert a string to a number as follows: ```Number.parseInt(stringValueHere, 10)```.
 
 ---
@@ -64,3 +78,17 @@ let days = "Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday";
 let array = days.split(";");
 console.log(array); // ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 ```
+
+---
+#### HTML entities
+To represent some symbols (such as the copyright symbol, the euro currency, etc.) on your page, you can use HTML entities.    
+
+An HTML Entity is an instruction that displays such symbols and it looks like this:
+```
+&copy; // ©
+&eur; // €
+```
+It starts with an ampersand (&) character and ends with a semi-colon (;).     
+
+---
+***Remember that it's not about memorizing those methods and/or getting the solution right from the first time. Rather it's about knowing how to resolve errors and finding the information (such as method names) whenever they're needed.***
